@@ -2,6 +2,7 @@
 
 A full-stack task management application built with React, TypeScript, Express.js, and MongoDB. Features user authentication, task CRUD operations, filtering, and pagination.
 
+
 ## Features
 
 - **User Authentication**: Secure login and registration with session management
