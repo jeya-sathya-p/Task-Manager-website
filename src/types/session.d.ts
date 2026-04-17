@@ -1,0 +1,14 @@
+import 'express-session';
+import { Session } from 'express-session';
+
+declare module 'express-session' {
+  interface SessionData {
+    userId: string;
+  }
+}
+
+declare module 'express-serve-static-core' {
+  interface Request {
+    session: Session & Partial<import('express-session').SessionData>;
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "TaskFlow Backend",
+  "description": "A robust Node.js and Express backend for task management with authentication, filtering, and pagination.",
+  "requestFramePermissions": []
+}
